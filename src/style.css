@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+
+  .container {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .tasks-container {
+    @apply my-8 max-w-4xl mx-auto;
+    
+    margin-top: 6rem;
+  
+  }
+
+  .task {
+    @apply bg-indigo-100 p-4 mb-6 rounded-xl shadow-xl shadow-indigo-900/20 border-indigo-800 mx-8
+  }
+
+  .reminder {
+    @apply border-l-8 border-l-indigo-600;
+  }
+
+  .add-form {
+    @apply max-w-7xl mx-auto py-6 flex flex-wrap bg-indigo-100 p-6 rounded-xl shadow-lg mt-6 shadow-indigo-900/20 mb-6
+  }
+
+  .add-form .form-control {
+    flex: 1 1 150px;
+  }
+
+  .add-form .form-control label {
+    @apply block
+  }
+
+  .add-form input {
+    @apply rounded-xl border-indigo-800 border-2 shadow-xl text-base text-lg p-2
+  }
+
+  .add-form input[type="text"] {
+    @apply bg-white
+  }
+
+  .add-form input[type="text"]:hover {
+    @apply bg-indigo-100 border-indigo-400
+  }
+
+  .add-form input[type="checkbox"] {
+    @apply p-4 cursor-pointer
+  }
+
+  .add-form input[type="submit"] {
+    @apply text-white bg-indigo-800 shadow-xl px-8 
+  }
+
+  .add-form input[type="submit"]:hover {
+    @apply bg-indigo-600 shadow-lg cursor-pointer
+  }
+
+
+
+
+}
