@@ -1,5 +1,6 @@
 # react-task-tracer-v1
 
+Simple react app with saves in fake API (local json file)
 
 ## How to use
 
